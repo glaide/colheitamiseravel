@@ -1,0 +1,31 @@
+Funções colheita miserável:
+
+- Inicializar jogo 
+    -Inicializar Mapa (LARA)
+    -Inicializar Personagem (VINICIUS) // Essa parte se refere a incializaçao tanto da mochila quanto da fome etc:. de jean eu juntei os dois em um pq seria mais facil de vcs manipularem
+
+- Jogo Acontecendo
+    -Mudanças no mapa (imprimir, gerar sementes, movimentacao e interacoes de jean) (LARA E KOVALSKI)
+    
+    -Mudanças na mochila (movimentaçao (Pilha)) (VINICIUS)
+    
+    -Mudanças no terreno de plantio (plantar, colher, ver(movimentacao L, F, P)) (GLAIDE)
+    
+    -Mudanças no tempo (turno) (GLAIDE)
+    
+    -Mudanças na personagem (Fome++; Saude--;) (GLAIDE)
+    
+-Fim do Jogo
+    perdeu = 0;
+    
+    
+ -  45 - NADA
+    1 - ESQUERDA
+    2 - CIMA
+    3 - DIREITA
+    4 - BAIXO 
+ +  43 - TERRENO PLANTIO VAZIO {...}
+ @  64 - SEMENTE {...}
+ #  35 - MURO
+ 8  56 - JEAN
+ *  42 - BORDA DA MOCHILA E DO ESTADO DE JEAN
